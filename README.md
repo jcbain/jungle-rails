@@ -26,3 +26,14 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 * PostgreSQL 9.x
 * Stripe
 
+## Notes
+
+# def render_stuff_conditionally
+#   if @contional_check
+#     render :partial => 'stuff'
+#   end
+# end
+
+# <%= render :partial => "foo/bar" if @conditions %>
+
+# render partial: @object.partial, object: @object
