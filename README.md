@@ -27,6 +27,9 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 * Stripe
 
 ## Notes
-    <aside class="sold-out">
-      <p>SOLD OUT!</p>
-    </aside>
+imlpement a storewide sales feature to learn about Rails 
+-needs a new table/model for db storage 
+-ability for admins to create sales records (name, % off, start date, end date)
+-once any sale is active, display it on the products page and affect the prices 
+-where to start
+--routing error -- controller error -- app error -- view error 
